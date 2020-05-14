@@ -2,7 +2,7 @@
   "name": "react-lights-out",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myronhuang.github.io",
+  "homepage": "https://myusername.github.io/lights-out",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.6.0",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
