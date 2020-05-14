@@ -2,13 +2,17 @@
   "name": "react-lights-out",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://myronhuang.github.io",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "^3.4.1",
     "shortid": "^2.2.15"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
